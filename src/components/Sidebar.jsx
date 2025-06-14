@@ -12,7 +12,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 const menuItems = [
-  { id: 1, title: "Dashboard", link: "/", icon: HomeIcon },
+  { id: 1, title: "Dashboard", link: "/dashboard", icon: HomeIcon },
   { id: 2, title: "Upload", link: "./upload", icon: ArrowUpTrayIcon },
   { id: 3, title: "List", link: "./form", icon: ListBulletIcon },
 //   { id: 4, title: "Customer", link: "./user", icon: UserIcon },

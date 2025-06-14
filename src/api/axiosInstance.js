@@ -3,7 +3,7 @@ import { getToken } from "../utils/auth";
 
 // Create shared Axios instance
 const api = axios.create({
-  baseURL: "http://93.127.194.139:5001/api",
+  baseURL: "https://survey.atmacsn.org/api",
   headers: {
     "Content-Type": "application/json",
   },

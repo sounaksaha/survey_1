@@ -26,7 +26,7 @@ const Login = () => {
 
       if (token) {
         toast.success(response.data.message);
-        login(() => navigate("/"), token);
+        login(() => navigate("/dashboard"), token);
       } else {
         toast.error("Login failed: No token received.");
       }

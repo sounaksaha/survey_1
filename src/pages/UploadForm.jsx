@@ -133,7 +133,7 @@ const UploadForm = () => {
       } else {
         await submitForm(payload);
         toast.success("Form submitted successfully!");
-        navigate("/form");
+        navigate("/dashboard/form");
       }
 
       setFile(null);
